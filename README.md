@@ -18,14 +18,22 @@ _This web application is a form that asks various questions to determine which p
 
 ## Setup/Installation Requirements
 
-#### _Your computer will need to have GIT installed_
+This webpage can be viewed either one of two ways:
+1. _By clicking on or copying and pasting this address into your browser: [https://ekthomas25.github.io/programming-language/](https://ekthomas25.github.io/programming-language/)_
+
+2. _By creating a GitHub account and cloning this repository to your Desktop_
+
+* #### _Your computer will need to have GIT installed_
 * _If you do not currently have GIT installed you will need to follow the directions on GitHub's website for installing and setting up GIT. These can be found [here.](https://docs.github.com/en/get-started/quickstart/set-up-git)_
 * _Once you have GIT set up, you will need to open up your terminal and type the command:_
 
 git clone https://github.com/ekthomas25/programming-language.git
 
 * This will clone the repository to your desktop and you will be abble to then open the folder labeled "portfolio-page"
-* Open the file named "index.html" in your browser to view this project
+* Open the file named "index.html" in your browser to view this project.
+* Enter your name in the text box.
+* Answer each questions by clicking on the circle beside your desired answer.
+* Click the Submit button to find out which programming language you should learn.
 
 
 ## Known Bugs
