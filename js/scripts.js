@@ -65,5 +65,19 @@ $(document).ready(function(){
       javaScript += 8;
     }
 
+    if (cSharp >= 48) {
+      $('#csharp').show();
+      $('#javascript, #python, #ruby').hide();
+    } else if (javaScript >= 32) {
+      $('#javascript').show();
+      $('#csharp, #python, #ruby').hide();
+    } else if (python >= 12) {
+      $('#python').show();
+      $('#csharp, #javascript, #ruby').hide();
+    } else {
+      $('#ruby').show();
+      $('#csharp, #javascript, #python').hide();
+    }
+
   });
 });

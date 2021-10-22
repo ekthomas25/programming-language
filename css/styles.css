@@ -2,3 +2,19 @@
   background-color: rgb(233, 250, 244);
   padding-top: 20px;
 }
+
+#csharp  {
+  display: none;
+}
+
+#python  {
+  display: none;
+}
+
+#javascript  {
+  display: none;
+}
+
+#ruby  {
+  display: none;
+}
