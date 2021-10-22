@@ -55,5 +55,15 @@ $(document).ready(function(){
       javaScript += 8;
     }
 
+    if (favSport === "underwater") {
+      cSharp += 16;
+    } else if (favSport === "ice") {
+      python += 4;
+    } else if (favSport === "burro") {
+      ruby += 0;
+    } else {
+      javaScript += 8;
+    }
+
   });
 });
