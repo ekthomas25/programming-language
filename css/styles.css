@@ -12,6 +12,21 @@ h2  {
   margin-top: 30px;
 }
 
+h3  {
+  font-family: sans-serif;
+  font-size: 35px;
+  font-weight: 200;
+  text-align: center;
+  margin: 35px;
+}
+
+h4  {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
 p  {
   font-family: sans-serif;
   font-size: 10pt;
@@ -24,6 +39,12 @@ body  {
   color: greenyellow;
 }
 
+img  {
+  margin: auto;
+  width: 100px;
+  height: auto;
+  display: block;
+}
 .jumbotron {
   padding-top: 20px;
   background-color: rgb(54, 54, 54);
@@ -64,4 +85,10 @@ body  {
 
 #ruby  {
   display: none;
+}
+
+.p-result  {
+  text-align: center;
+  font-size: 12pt;
+  margin-bottom: 70px;
 }
