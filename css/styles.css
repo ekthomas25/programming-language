@@ -5,9 +5,11 @@ h1  {
 }
 
 h2  {
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
-  font-size: 25px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
   color: chartreuse;
+  margin-bottom: 20px;
+  margin-top: 30px;
 }
 
 p  {
@@ -18,12 +20,30 @@ p  {
 }
 
 body  {
+  background-color: rgb(98, 105, 88);
   color: greenyellow;
 }
+
+.jumbotron {
+  padding-top: 20px;
+  background-color: rgb(54, 54, 54);
+}
+
 .container  {
   background-color: rgb(16, 20, 19);
-  padding-top: 20px;
+  margin-bottom: 30px;
+  padding-top: 5px;
+  padding-bottom: 20px;
   padding-left: 50px;
+  padding-left: 50px;
+  width: 80%;
+}
+
+.btn-success {
+  height: 60px;
+  font-family: monospace;
+  font-size: 30px;
+  color: black;
 }
 
 #csharp  {

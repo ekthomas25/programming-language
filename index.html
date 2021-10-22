@@ -8,11 +8,12 @@
   <title>Programming Language Selector</title>
 </head>
 <body>
-  <div class="container">
+  <div class="jumbotron">
     <h1>Programming Language Selector</h1>
     <p>Take this quiz and find out which programming language is right for you!</p>
-    <form id="prgrm-select"> <!-- Do I need this? -->
-      
+  </div>
+  <form id="prgrm-select"> <!-- Do I need this? -->
+    <div class="container">
       <h2>If you were an animal, what you be?</h2>
       <div class="formgroup">
         <label>
@@ -44,7 +45,8 @@
           Bearded Dragon
         </label>
       </div>
-
+    </div>
+    <div class="container">
       <h2>If you had a super power, what would it be?</h2>
       <div class="formgroup">
         <label>
@@ -76,7 +78,9 @@
           Shapeshifting
         </label>
       </div>
+    </div>
 
+    <div class="container">
       <h2>What are you interested in making?</h2>
       <div class="formgroup">
         <label>
@@ -102,7 +106,9 @@
           Games
         </label>
       </div>
-      
+    </div>
+    
+    <div class="container">
       <h2>What is your favorite color?</h2>
       <div class="formgroup">
         <label>
@@ -128,7 +134,9 @@
           Navy
         </label>
       </div>
+    </div>
 
+    <div class="container">
       <h2>What is your favorite sport?</h2>
       <div class="formgroup">
         <label>
@@ -154,22 +162,28 @@
           Bike Jousting
         </label>
       </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
-    
-    <div id="csharp">
-      C#
     </div>
-    <div id="python">
-      Python
-    </div>
-    <div id="javascript">
-      JavaScript
-    </div>
-    <div id="ruby">
-      Ruby
+    <div class="row">
+      <div class="col text-center">
+        <button type="submit" class="btn btn-success">Submit</button>
+      </div>
     </div>
 
+  </form>
+  
+  <div id="csharp">
+    C#
   </div>
+  <div id="python">
+    Python
+  </div>
+  <div id="javascript">
+    JavaScript
+  </div>
+  <div id="ruby">
+    Ruby
+  </div>
+
+ 
 </body>
 </html>
