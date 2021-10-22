@@ -5,6 +5,7 @@ $(document).ready(function(){
   let cSharp = 0;
   $("form#prgrm-select").submit(function(event) {
     event.preventDefault();
+    const person1Input = $("input#person1").val();
     let favAnimal = $("input:radio[name=animal]:checked").val();
     let superPower = $("input:radio[name=super-power]:checked").val();
     let prgrmLang = $("input:radio[name=languages]:checked").val();
@@ -66,17 +67,21 @@ $(document).ready(function(){
     }
 
     if (cSharp >= 48) {
+      $(".person1").text(person1Input);
       $('#csharp').show();
       $('#javascript, #python, #ruby').hide();
     } else if (javaScript >= 32) {
+      $(".person1").text(person1Input);
       $('#javascript').show();
       $('#csharp, #python, #ruby').hide();
     } else if (python >= 12) {
+      $(".person1").text(person1Input);
       $('#python').show();
       $('#csharp, #javascript, #ruby').hide();
     } else {
+      $(".person1").text(person1Input);
       $('#ruby').show();
-      $('#csharp, #javascript, #python').hide();
+      $('#csharp, #python, #javascript,').hide();
     }
 
   });
