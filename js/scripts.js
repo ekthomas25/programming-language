@@ -45,6 +45,15 @@ $(document).ready(function(){
       cSharp += 16;
     }
 
-    
+    if (favColor === "aqua") {
+      ruby += 0;
+    } else if (favColor === "cornflower") {
+      python += 4;
+    } else if (favColor === "turquoise") {
+      cSharp += 16;
+    } else {
+      javaScript += 8;
+    }
+
   });
 });
