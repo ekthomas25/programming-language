@@ -22,5 +22,29 @@ $(document).ready(function(){
     } else {
       cSharp += 16;
     }
-  })
+
+    if (superPower === "invisibility") {
+      ruby += 0;
+    } else if (superPower === "flight") {
+      python += 4;
+    } else if (superPower === "laser-eyes") {
+      cSharp += 16;
+    } else if (superPower === "strength") {
+      javaScript += 8;
+    } else {
+      cSharp += 16;
+    }
+
+    if (prgrmLang === "web-app") {
+      ruby += 0;
+    } else if (prgrmLang === "software") {
+      python += 4;
+    } else if (prgrmLang === "interactive") {
+      javaScript += 8;
+    } else {
+      cSharp += 16;
+    }
+
+    
+  });
 });
