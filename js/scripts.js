@@ -11,5 +11,16 @@ $(document).ready(function(){
     let favColor = $("input:radio[name=color]:checked").val();
     let favSport = $("input:radio[name=sport]:checked").val();
 
+    if (favAnimal === "cat") {
+      ruby += 0;
+    } else if (favAnimal === "bear") {
+      javaScript += 8;
+    } else if (favAnimal === "python") {
+      python += 4;
+    } else if (favAnimal === "dolphin") {
+      cSharp += 16;
+    } else {
+      cSharp += 16;
+    }
   })
 });
