@@ -74,22 +74,27 @@ img  {
   font-family: monospace;
   font-size: 30px;
   color: black;
+  margin-bottom: 100px;
 }
 
 #csharp  {
   display: none;
+  margin-top: -100px;
 }
 
 #python  {
   display: none;
+  margin-top: -100px;
 }
 
 #javascript  {
   display: none;
+  margin-top: -100px;
 }
 
 #ruby  {
   display: none;
+  margin-top: -100px;
 }
 
 .p-result  {
