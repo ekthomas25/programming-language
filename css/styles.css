@@ -66,7 +66,27 @@ img  {
 }
 
 .formgroup  {
+  font-family: monospace;
+  font-size: 11pt;
+  color: rgb(180, 209, 151);
   padding-left: 30px;
+}
+
+#aqua-color  {
+  color: aqua;
+}
+
+#cornflower-color  {
+  color: cornflowerblue;
+}
+
+#turquoise-color  {
+  color: turquoise;
+}
+
+#navy-color  {
+  color: navy;
+  background-color: gray;
 }
 
 .btn-success {
